@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.time_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.time_wrap span {
+  font-size: 30px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+.time h1 {
+  font-size: 50px;
+}
+
+.seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: rgba(0, 247, 255, 0.388);
+  font-size: 50px;
+  padding: 5px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  height: 50px;
+}
+.input input {
+  width: 70%;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.input button {
+  width: 30%;
+  font-size: 30px;
+}
+
+.control_buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.control_buttons button {
+  width: 45%;
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 25px;
+}
+
+.enter_time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
